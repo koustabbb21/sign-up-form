@@ -37,7 +37,7 @@
 
 #top-icon {
     height: 60px;
-    width: 53px;
+    width: 51px;
     border-radius: 30px;
     background-color: #ff7158;
     display: flex;
@@ -49,7 +49,7 @@
 }
 
 #heading {
-    color: #2C1A14;
+    color: #3d241c;
     font-size: 24px;
     font-weight: 700;
     font-family: "Inter", sans-serif;
@@ -64,4 +64,57 @@
     font-family: "Inter", sans-serif;
     position: relative;
     bottom: 16px;
+}
+
+#name-field, #email-field, #password-field {
+    height: 45px;
+    width: 400px;
+    border: 1px solid #EDD9D3;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+#name, #email, #password {
+    color: #4A2E24;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+#terms {
+    position: relative;
+    top: 15px;
+}
+
+#checkbox {
+    border: 1px solid #D4B8B0;
+}
+
+#terms-and-conditions {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+}
+
+.sign-up {
+    position: relative;
+    top: 50px;
+}
+
+#sign-up-button {
+    color: #ffffff;
+    height: 45px;
+    width: 400px;
+    background-color: #f05a41;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
